@@ -1,0 +1,59 @@
+
+.container{
+	width: 95%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hex-colors{
+	text-align: center;
+}
+
+.hex-colors h1{
+	font-size: 2rem; /* 1 rem = 16px */
+	text-transform: uppercase;
+	animation: colorchange 4s infinite alternate;
+}
+
+.hex-colors h2{
+	font-size: 2rem;
+	margin-top: 15%;
+	margin-bottom: 5%;
+}
+
+@keyframes colorchange{
+	0%{
+		color: red;
+	}
+
+	20%{
+		color: yellow;
+	}
+
+	40%{
+		color: purple;
+	}
+
+	60%{
+		color: orange;
+	}
+
+	80%{
+		color: green;
+	}
+
+	100%{
+		color: blue;
+	}
+}
+
+@media(max-width: 480px){
+	.hex-colors h1{
+		font-size: 1rem;
+	}
+	.hex-colors h2{
+		font-size: 1rem;
+	}
+}
