@@ -100,3 +100,10 @@ body{
 	from { opacity: .4 }
 	to { opacity: 1}
 }
+
+@media(max-width: 768px){
+	.container{
+		width: 100
+%	}
+}
+
