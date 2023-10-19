@@ -17,8 +17,5 @@ function calculateTime(){
 	document.getElementById("ampm").innerHTML = ampm;
 
 	setTimeout(calculateTime, 200);
-	console.log(date)
+	
 }
-
-
-
