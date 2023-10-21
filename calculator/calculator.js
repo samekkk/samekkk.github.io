@@ -14,5 +14,9 @@ function equal(){
 
 function erase(){
 	expression = '';
-	userInput.value = expression
+	userInput.value = expression;
+}
+
+function Delete(){
+	userInput.value = userInput.value.slice(0, -1)
 }
