@@ -23,6 +23,7 @@ body{
 }
 
 #userInput{
+	
 	box-sizing: border-box;
 	width: 100%;
 	padding: 40px 5px;
@@ -37,23 +38,33 @@ body{
 	width: 24%;
 	height: 45px;
 	border: none;
-	border-radius: 2px;
+	border-radius: 50px;
 	outline: none;
 	margin-top: 3px;
 	background: whitesmoke;
 }
 
 .btnEqual{
-	width: 100%;
+	width: 75%;
 	height: 45px;
 	border: none;
-	border-radius: 2px;
+	border-radius: 50px;
 	outline: none;
 	margin-top: 3px;
 	background: whitesmoke;
 }
 
-.btn:hover, .btnEqual:hover{
+.btnDelete{
+	width: 24%;
+	height: 45px;
+	border: none;
+	border-radius: 50px;
+	outline: none;
+	margin-top: 3px;
+	background: whitesmoke;
+}
+
+.btn:hover, .btnEqual:hover, .btnDelete:hover{
 	background: rgba(128, 128, 128, 0.1);
 }
 
