@@ -7,7 +7,7 @@
 <body>
 	<div class="container">
 		<div class="calculator">
-			<input id="userInput" placeholder="0"><br>
+			<input type="text"  id="userInput" placeholder="0"><br>
 
 			<button class="btn" onclick="press(1)">1</button>
 
@@ -15,7 +15,7 @@
 
 			<button class="btn" onclick="press(3)">3</button>
 
-			<button class="btn" style="background: #ffb84d" onclick="press('+')">+</button>
+			<button class="btn" onclick="erase()">Clr</button>
 
 			<br>
 
@@ -25,8 +25,8 @@
 
 			<button class="btn" onclick="press(6)">6</button>
 
-			<button class="btn" style="background: #ffcc80" onclick="press('-')">-</button>
-
+			<button class="btn" style="background: #ffb84d" onclick="press('+')">+</button>
+			
 			<br>
 
 			<button class="btn" onclick="press(7)">7</button>
@@ -35,7 +35,7 @@
 
 			<button class="btn" onclick="press(9)">9</button>
 
-			<button class="btn" style="background: #ffe0e3" onclick="press('*')">*</button>
+			<button class="btn" style="background: #ffcc80" onclick="press('-')">-</button>
 
 			<br>
 
@@ -43,13 +43,17 @@
 
 			<button class="btn" onclick="press(0)">0</button>
 
-			<button class="btn" onclick="erase()">Clr</button>
+			<button class="btnDelete" onclick="Delete()">Del</button>
 
-			<button class="btn" style="background: #fff5e6" onclick="press('/')">/</button>
+			<button class="btn" style="background: #FFD7EA" onclick="press('*')">*</button>
 
 			<br>
 
 			<button class="btnEqual" onclick="equal()">=</button>
+
+			
+			<button class="btn" style="background:#ffe0e3" onclick="press('/')">/</button>
+
 		</div>
 	</div>
 	<script type="text/javascript" src="calculator.js"></script>
