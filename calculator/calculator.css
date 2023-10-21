@@ -68,8 +68,3 @@ body{
 	background: rgba(128, 128, 128, 0.1);
 }
 
-@media (max-width: 480px){
-	.btn{
-		width: 24%;
-	}
-}
