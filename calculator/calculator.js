@@ -18,5 +18,6 @@ function erase(){
 }
 
 function Delete(){
-	userInput.value = userInput.value.slice(0, -1)
+	userInput.value = userInput.value.slice(0, -1);
+expression = userInput.value
 }
