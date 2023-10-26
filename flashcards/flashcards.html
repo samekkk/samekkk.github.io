@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doc</title>
+	<link rel="stylesheet" type="text/css" href="flashcards.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="nav">
+				<h1>Flashcards</h1>
+
+				<!--div for the New card and Del card button-->
+
+				<div>
+					<button onclick="showCreateCardBox()">New Cards</button>
+					<button onclick="delFlashcards()">Del Cards</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="create-box">
+			<h2 style="text-align: center; color: black;">Create Flashcard</h2>
+
+			<label for="question">Question</label>
+			<textarea id="question"></textarea>
+			<br>
+			<label for="answer">Answer</label>
+			<textarea id="answer"></textarea>
+
+			<!--div for the save and close button-->
+
+			<div>
+				<button onclick="addFlashcard()">Save</button>
+				<button onclick="hideCreateBox()">Close</button>
+			</div>			
+		</div>
+
+		<!--This is where the flashcards will show-->
+		<div id="flashcards"></div>
+
+	</div>
+
+	<script type="text/javascript" src="flashcards.js"></script>
+</body>
+</html>
