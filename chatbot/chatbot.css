@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Libre+Baskerville&family=Playfair+Display&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Edu TAS Beginner', cursive;
+	background: conic-gradient(at top right, lime, cyan)
+}
+
+span{
+	padding: 0 4px;
+}
+
+.chat{
+	display: flex;
+	flex-direction: column;
+
+  justify-content: center;
+	align-items: center;
+}
+
+.messages{
+
+	display: flex;
+	flex-direction: column;
+	margin: 8px;
+	height: 90%;
+	width: 100%
+}
+
+.container{
+	
+	height: 100vh;
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.div{
+overflow: scroll;
+	padding: 20px;
+	background: whitesmoke;
+	height: 90%;
+	width: 90%;
+	box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	
+
+}
+
+.avatar {
+
+	height: 25px;
+
+}
+
+
+#input-field{
+	height: auto;
+	width: 90%;	
+	border: 1px solid gray;
+	outline: none;
+	font-family: inherit;
+	padding: 13px;
+	font-size: 1.3rem;
+	border-bottom-right-radius: 1.1rem;
+	border-bottom-left-radius: 1.1rem;
+	
+}
+
+#input-field:focus{
+
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.25);
+
+}
+
+#user {
+	padding: 15px 5px 15px 0;
+}
+
+#bot {
+	padding: 15px 0 15px 5px;
+	margin-top: 5px;
+	margin-left: auto;
+}
+
+@media (max-width: 780px) {
+	.div{
+		height: 70%;
+		width: auto;
+	} 
+	
+}
